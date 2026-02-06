@@ -1,11 +1,27 @@
-<!DOCTYPE html>
+<!DOCTYPE html>                         <!--starting-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event-Portal</title>
+    <!--linking bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    
+    <!--d-flex → turns the section into a flex container align-items-center → vertically centers the content inside it -->
+    <section class="home d-flex align-items-center">   
+        <div class="container text-center text-black">                  <!--display-4 is for size adkustment of h1 -->
+            <h1 class="display-4 fw-bold">College Event Hub</h1>        <!--fw-bold = font-weight:bold-->
+            <p class="lead mt-3"></p>                           <!--lead makes the text slightly larger,thinner etc. -->                     
+                                                                <!--mt-3 = margin-top:3 (spacing from margin)-->
+            <a href="#events" class="btn btn-danger rounded-pill px-4 mt-3">
+                Explore Events
+            </a>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

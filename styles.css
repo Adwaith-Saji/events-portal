@@ -1,0 +1,35 @@
+/*HOME SECTION*/
+.home{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/college-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.home h1{
+    letter-spacing:1px;
+}
+.home p{
+    max-width: 650px;
+    margin: auto;
+}
+
+/*Events Section*/
+.events h2{
+    letter-spacing: 1px;
+}
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+.btn-danger:hover {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}

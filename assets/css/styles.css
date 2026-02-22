@@ -1,3 +1,8 @@
+/* FONT-poppins */
+body {
+    font-family: 'poppins',sans-serif;  
+}
+
 /*HOME SECTION*/
 .home{
     height: 100vh;
@@ -13,6 +18,7 @@
     margin: auto;
 }
 
+
 /*Events Section*/
 .events h2{
     letter-spacing: 1px;
@@ -20,16 +26,28 @@
 .card img {
     height: 220px;
     object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
 }
 .card {
     border: none;
-    transition: transform 0.3s ease;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.8);
+    transition: all 0.3s ease;
+}
+.card-body{
+    padding: 1.5rem;
 }
 
 .card:hover {
     transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);   ;
 }
 .btn-danger:hover {
     background-color: #ff4d4d;
     border-color: #ff4d4d;
+}
+.btn-outline-danger{
+    border-radius: 50px;
 }

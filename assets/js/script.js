@@ -3,21 +3,21 @@ const events = [
         title: "Tech Fest 2026",
         date: "2026-03-12",
         venue: "Main Auditorium",
-        image: "assets/images/event1.jpg",
+        image: "assets/images/1.jpeg",
         category: "tech"
     },
     {
         title: "Cultural Night",
         date: "2026-03-20",
         venue: "Open Stage",
-        image: "assets/images/event2.jpg",
+        image: "assets/images/2.jpeg",
         category: "cultural"
     },
     {
         title: "Sports Meet",
-        date: "2026-02-01",
+        date: "2026-03-01",
         venue: "College Ground",
-        image: "assets/images/event3.jpg",
+        image: "assets/images/3.jpeg",
         category: "sports"
     }
 ];

@@ -1,0 +1,7 @@
+.btn-danger:hover {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+.btn-outline-danger{
+    border-radius: 50px;
+}

@@ -40,12 +40,13 @@ events.forEach(event => {           //this is same as for(let i=0;i<events.lengh
                     <h5 class="card-title fw-bold">${event.title}</h5>
                     <p class="card-text text-muted">Date: ${event.date}</p>
                     <p class="card-text text-muted">Venue: ${event.venue}</p>
-                    <a href="#" class="btn btn-outline-danger w-100">Register</a>
+                    <a href="#" class="btn-outline-custom w-100">Register</a>   
                 </div>
             </div>
         </div>
     `; //this full string is just for the if condiiton written below, and will make change in html(using innerhtml) 
     //above part woeking >> card : Bootstrap card component,shadow-sm : small shadow,btn btn... : full width button with red outline
+    //btn-outline-custom uses custom designed button
     if (eventDate >= today) {
         eventsContainer.innerHTML += cardHTML; //append Upcoming events(happening in index.html)
     } else {

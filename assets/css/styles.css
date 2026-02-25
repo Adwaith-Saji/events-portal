@@ -6,7 +6,7 @@ body {
 /*HOME SECTION*/
 .home{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/college-bg.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://themewagon.github.io/corso/images/header-background.jpg");
     background-size: cover;
     background-position: center;
 }
